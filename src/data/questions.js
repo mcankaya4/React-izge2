@@ -7,7 +7,7 @@ export const questions = [
   },
   {
     question: "Goodbye",
-    options: ["Hoşça kal", "Merhaba"],
+    options: ["Hoşça kal", "İyi akşamlar"],
     correctOption: 0,
     points: 8,
   },
@@ -24,8 +24,8 @@ export const questions = [
     points: 7,
   },
   {
-    question: "I'm fine, thanks.",
-    options: ["Ben açım", "İyiyim, teşekkürler"],
+    question: "I'm fine.",
+    options: ["Ben açım", "Ben iyiyim"],
     correctOption: 1,
     points: 5,
   },
@@ -61,7 +61,7 @@ export const questions = [
   },
   {
     question: "Library",
-    options: ["Banka", "Kütüphane"],
+    options: ["Laboratuvar", "Kütüphane"],
     correctOption: 1,
     points: 8,
   },
@@ -73,13 +73,13 @@ export const questions = [
   },
   {
     question: "Park",
-    options: ["Park", "Hastane"],
+    options: ["Park", "Banka"],
     correctOption: 0,
     points: 7,
   },
   {
     question: "Hospital",
-    options: ["Fırın", "Hastane"],
+    options: ["Eczane", "Hastane"],
     correctOption: 1,
     points: 5,
   },
@@ -91,13 +91,13 @@ export const questions = [
   },
   {
     question: "Police station",
-    options: ["Market", "Polis karakolu"],
+    options: ["Pastane", "Polis karakolu"],
     correctOption: 1,
     points: 6,
   },
   {
     question: "Supermarket",
-    options: ["Market", "Okul"],
+    options: ["Market", "Manav"],
     correctOption: 0,
     points: 8,
   },
@@ -115,7 +115,7 @@ export const questions = [
   },
   {
     question: "Go straight ahead",
-    options: ["Dümdüz git", "Sola dön"],
+    options: ["Dümdüz git", "Köşeden dön"],
     correctOption: 0,
     points: 7,
   },
@@ -127,19 +127,19 @@ export const questions = [
   },
   {
     question: "Read a book",
-    options: ["Kitap okumak", "Televizyon izlemek"],
+    options: ["Kitap okumak", "Ödev yapmak"],
     correctOption: 0,
     points: 5,
   },
   {
     question: "Draw pictures",
-    options: ["Satranç oynamak", "Resim çizmek"],
+    options: ["Fotoğraf çekmek", "Resim çizmek"],
     correctOption: 1,
     points: 7,
   },
   {
     question: "Ride a bike",
-    options: ["Bisiklete binmek", "Yüzmek"],
+    options: ["Bisiklete binmek", "Paten sürmek"],
     correctOption: 0,
     points: 7,
   },
@@ -151,25 +151,25 @@ export const questions = [
   },
   {
     question: "Listen to music",
-    options: ["Kitap okumak", "Müzik dinlemek"],
+    options: ["Şarkı söylemek", "Müzik dinlemek"],
     correctOption: 1,
     points: 7,
   },
   {
     question: "Play chess",
-    options: ["Resim çizmek", "Satranç oynamak"],
+    options: ["Tenis oynamak", "Satranç oynamak"],
     correctOption: 1,
     points: 7,
   },
   {
     question: "Dance",
-    options: ["Dans etmek", "Futbol oynamak"],
+    options: ["Dans etmek", "Müzik dinlemek"],
     correctOption: 0,
     points: 7,
   },
   {
     question: "Swim",
-    options: ["Bisiklete binmek", "Yüzmek"],
+    options: ["Sallanmak", "Yüzmek"],
     correctOption: 1,
     points: 10,
   },
@@ -181,7 +181,7 @@ export const questions = [
   },
   {
     question: "Game",
-    options: ["Oyun", "Hobi"],
+    options: ["Oyun", "Etkinlik"],
     correctOption: 0,
     points: 7,
   },
@@ -193,7 +193,7 @@ export const questions = [
   },
   {
     question: "Brush teeth",
-    options: ["Diş yemek", "Diş fırçalamak"],
+    options: ["Diş macunu", "Diş fırçalamak"],
     correctOption: 1,
     points: 6,
   },
@@ -211,13 +211,13 @@ export const questions = [
   },
   {
     question: "Come home",
-    options: ["Eve gelmek", "Okula gitmek"],
+    options: ["Eve gelmek", "Evden ayrılmak"],
     correctOption: 0,
     points: 9,
   },
   {
     question: "Do homework",
-    options: ["Oyun oynamak", "Ödev yapmak"],
+    options: ["Resim çizmek", "Ödev yapmak"],
     correctOption: 1,
     points: 8,
   },
@@ -259,7 +259,7 @@ export const questions = [
   },
   {
     question: "Leg",
-    options: ["Bacak", "Göz"],
+    options: ["Bacak", "Kulak"],
     correctOption: 0,
     points: 8,
   },
@@ -271,7 +271,7 @@ export const questions = [
   },
   {
     question: "Tooth",
-    options: ["Diş", "Göz"],
+    options: ["Diş", "Diz"],
     correctOption: 0,
     points: 5,
   },
@@ -295,7 +295,7 @@ export const questions = [
   },
   {
     question: "Patient",
-    options: ["Doktor", "Hasta"],
+    options: ["Veteriner", "Hasta"],
     correctOption: 1,
     points: 5,
   },
@@ -307,7 +307,7 @@ export const questions = [
   },
   {
     question: "Cough",
-    options: ["Öksürük", "Ateş"],
+    options: ["Öksürük", "Baş ağrısı"],
     correctOption: 0,
     points: 7,
   },
@@ -349,7 +349,7 @@ export const questions = [
   },
   {
     question: "Fish",
-    options: ["Köpek", "Balık"],
+    options: ["Kuş", "Balık"],
     correctOption: 1,
     points: 5,
   },
@@ -373,7 +373,7 @@ export const questions = [
   },
   {
     question: "Clean",
-    options: ["Temizlemek", "Beslemek"],
+    options: ["Temizlemek", "Tırmanmak"],
     correctOption: 0,
     points: 6,
   },
@@ -433,7 +433,7 @@ export const questions = [
   },
   {
     question: "Party",
-    options: ["Parti", "Okul"],
+    options: ["Parti", "Park"],
     correctOption: 0,
     points: 9,
   },
@@ -451,7 +451,7 @@ export const questions = [
   },
   {
     question: "Dance",
-    options: ["Dans", "Koşu"],
+    options: ["Dans", "Müzik"],
     correctOption: 0,
     points: 9,
   },
@@ -469,19 +469,19 @@ export const questions = [
   },
   {
     question: "Walk",
-    options: ["Yürümek", "Tırmanmak"],
+    options: ["Yürümek", "Koşmak"],
     correctOption: 0,
     points: 10,
   },
   {
     question: "Climb",
-    options: ["Koşmak", "Tırmanmak"],
+    options: ["Temizlik", "Tırmanmak"],
     correctOption: 1,
     points: 8,
   },
   {
     question: "Swim",
-    options: ["Yüzmek", "Zıplamak"],
+    options: ["Yüzmek", "Sallanmak"],
     correctOption: 0,
     points: 7,
   },
