@@ -1,4 +1,7 @@
-function CompleteScreen({ dispatch }) {
+import { useQuiz } from "../contexts/QuizContext";
+
+function CompleteScreen() {
+  const { dispatch } = useQuiz();
   return (
     <>
       <p className="result">

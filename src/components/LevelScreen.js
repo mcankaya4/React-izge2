@@ -1,12 +1,15 @@
-function LevelScreen({ level, points, dispatch }) {
+import { useQuiz } from "../contexts/QuizContext";
+
+function LevelScreen() {
+  const { level, points, dispatch } = useQuiz();
   return (
     <>
       <p className="highscore">Congratulations (Tebrikler)</p>
-      <p className="result">
+      <div className="result">
         <p>
           {level}st level completed. <span>💯</span>
         </p>
-      </p>
+      </div>
       <p className="highscore">
         At level <strong>{level}</strong> you managed to collect {points}
         points.
